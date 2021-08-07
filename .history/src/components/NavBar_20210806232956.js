@@ -1,6 +1,5 @@
 import React from "react";
 import KeyboardIcon from "@material-ui/icons/Keyboard";
-import TouchAppIcon from "@material-ui/icons/TouchApp";
 export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-custom">

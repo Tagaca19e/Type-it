@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-custom">
       <a className="navbar-brand" href="/">
-        Type-it <KeyboardIcon />
+        Type-it <KeyboardIcon /> <TouchAppIcon />
       </a>
       <button
         className="navbar-toggler"

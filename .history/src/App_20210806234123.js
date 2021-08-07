@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import NavBar from "./components/NavBar";
 import TypeRacer from "./components/TypeRacer";
 import { getQuotes } from "./services/index";
-import MouseIcon from "@material-ui/icons/Mouse";
 import "./app.css";
 
 export default function App() {
@@ -31,7 +30,6 @@ export default function App() {
             id="button"
           >
             Click To Start
-            <MouseIcon />
           </button>
         </div>
       )}
