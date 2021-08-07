@@ -20,7 +20,7 @@ export default function App() {
   };
 
   return (
-    <div className="main">
+    <div>
       <NavBar />
       {!started && (
         <div className="center">
@@ -34,9 +34,7 @@ export default function App() {
         </div>
       )}
       {started && quote !== undefined && (
-        <div className="master">
-          <TypeRacer quote={quote} setQuote={setQuote} />
-        </div>
+        <TypeRacer quote={quote} setQuote={setQuote} />
       )}
     </div>
   );

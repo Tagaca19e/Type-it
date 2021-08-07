@@ -131,7 +131,7 @@ export default function TypeRacer({ quote, setQuote }) {
 
   return (
     <>
-      <div className="container quotes">
+      <div className="">
         <TypeDetails done={done} totalWords={totalWords} />
         {!done ? (
           (quoteArray,

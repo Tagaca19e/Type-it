@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import Timer from "./Timer";
 import TypeDetails from "./TypeDetails";
-import "./typeracer.css";
 
 export default function TypeRacer({ quote, setQuote }) {
   const [error, setError] = useState("");

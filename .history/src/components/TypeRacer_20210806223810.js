@@ -131,71 +131,73 @@ export default function TypeRacer({ quote, setQuote }) {
 
   return (
     <>
-      <div className="container quotes">
-        <TypeDetails done={done} totalWords={totalWords} />
-        {!done ? (
-          (quoteArray,
-          wordIndex,
-          charIndex,
-          nextCharIndex && (
-            <div className="quote">
-              <span className="quote-text success">{successChars}</span>
-              {!error ? (
+      <div className="main">
+        <div className="container quotes">
+          <TypeDetails done={done} totalWords={totalWords} />
+          {!done ? (
+            (quoteArray,
+            wordIndex,
+            charIndex,
+            nextCharIndex && (
+              <div className="quote">
+                <span className="quote-text success">{successChars}</span>
+                {!error ? (
+                  <span className="quote-text current-word">
+                    {quoteArray[wordIndex][charIndex]}
+                  </span>
+                ) : (
+                  <span className="quote-text error">{error}</span>
+                )}
                 <span className="quote-text current-word">
-                  {quoteArray[wordIndex][charIndex]}
+                  {quoteArray[wordIndex][nextCharIndex]}
                 </span>
-              ) : (
-                <span className="quote-text error">{error}</span>
-              )}
-              <span className="quote-text current-word">
-                {quoteArray[wordIndex][nextCharIndex]}
-              </span>
-              <span className="quote-text current-word">
-                {quoteArray[wordIndex].slice(nextCharIndex + 1)}{" "}
-              </span>
-              <span className="quote-text">{quote}</span>
+                <span className="quote-text current-word">
+                  {quoteArray[wordIndex].slice(nextCharIndex + 1)}{" "}
+                </span>
+                <span className="quote-text">{quote}</span>
+              </div>
+            ))
+          ) : (
+            <div className="quote">
+              <span className="quote-text success">{quoteArray.join(" ")}</span>
             </div>
-          ))
-        ) : (
-          <div className="quote">
-            <span className="quote-text success">{quoteArray.join(" ")}</span>
-          </div>
-        )}
-        {!error ? (
-          <input
-            type="text"
-            id="input"
-            value={value}
-            onChange={handleChange}
-            className="input mt-5"
-            onKeyDown={onKeyDown}
-            disabled={done && true}
-            autoFocus
-          />
-        ) : (
-          <input
-            type="text"
-            id="input"
-            onChange={handleChange}
-            value={value}
-            className="input mt-5 error"
-            onKeyDown={onKeyDown}
-            onKeyUp={onKeyUp}
-            disabled={done && true}
-            autoFocus
-          />
-        )}
-        {done && (
-          <div className="text-center">
-            <button
-              onClick={() => window.location.reload()}
-              id="button"
-              className="btn btn-primary mt-5 "
-            >
-              Restart
-            </button>
-          </div>
-        )}
+          )}
+          {!error ? (
+            <input
+              type="text"
+              id="input"
+              value={value}
+              onChange={handleChange}
+              className="input mt-5"
+              onKeyDown={onKeyDown}
+              disabled={done && true}
+              autoFocus
+            />
+          ) : (
+            <input
+              type="text"
+              id="input"
+              onChange={handleChange}
+              value={value}
+              className="input mt-5 error"
+              onKeyDown={onKeyDown}
+              onKeyUp={onKeyUp}
+              disabled={done && true}
+              autoFocus
+            />
+          )}
+          {done && (
+            <div className="text-center">
+              <button
+                onClick={() => window.location.reload()}
+                id="button"
+                className="btn btn-primary mt-5 "
+              >
+                Restart
+              </button>
+            </div>
+          )}
+        </div>
       </div>
     </>
   );

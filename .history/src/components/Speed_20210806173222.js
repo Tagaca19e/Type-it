@@ -8,8 +8,10 @@ export default function Speed({ time, totalWords, done }) {
   }, []);
 
   return (
-    <div>
-      <h3>{wp && `${wp}WP`}</h3>
-    </div>
+    done && (
+      <div>
+        <h3>{wp && `${wp}WP`}</h3>
+      </div>
+    )
   );
 }

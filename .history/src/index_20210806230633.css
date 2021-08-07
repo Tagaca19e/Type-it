@@ -5,7 +5,7 @@
 
 html body {
   font-family: "Share Tech Mono", serif;
-  background-color: #dddddd;
+  background-color: #ff8882;
   /* background-image: -webkit-linear-gradient(0deg, #08aeea 0%, #2af598 100%);
   background-image: -moz-linear-gradient(0deg, #08aeea 0%, #2af598 100%);
   background-image: -o-linear-gradient(0deg, #08aeea 0%, #2af598 100%);
@@ -195,14 +195,14 @@ html body {
   margin: auto;
   padding: 15px 45px 15px 45px;
   margin-bottom: 30px;
-  background-color: #1d2d50;
-
+  background-color: #10193a;
   border-radius: 5px;
 }
 
 .type-details > * {
   position: relative;
   top: 5px;
+  background-color: #383e56;
 }
 
 .type-details-divider {

@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import NavBar from "./components/NavBar";
 import TypeRacer from "./components/TypeRacer";
 import { getQuotes } from "./services/index";
-import "./app.css";
 
 export default function App() {
   const [quote, setQuote] = useState();
@@ -20,7 +19,7 @@ export default function App() {
   };
 
   return (
-    <div className="main">
+    <div>
       <NavBar />
       {!started && (
         <div className="center">
@@ -34,9 +33,7 @@ export default function App() {
         </div>
       )}
       {started && quote !== undefined && (
-        <div className="master">
-          <TypeRacer quote={quote} setQuote={setQuote} />
-        </div>
+        <TypeRacer quote={quote} setQuote={setQuote} />
       )}
     </div>
   );

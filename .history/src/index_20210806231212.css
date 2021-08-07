@@ -28,7 +28,7 @@ html body {
   outline: none !important;
   padding-left: 10px;
   font-weight: 400;
-  background-color: #62729c;
+  background-color: #F5A962c;
   color: white;
 }
 
@@ -195,8 +195,7 @@ html body {
   margin: auto;
   padding: 15px 45px 15px 45px;
   margin-bottom: 30px;
-  background-color: #1d2d50;
-
+  background-color: #0f4c81;
   border-radius: 5px;
 }
 

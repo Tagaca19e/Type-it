@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import NavBar from "./components/NavBar";
 import TypeRacer from "./components/TypeRacer";
 import { getQuotes } from "./services/index";
-import "./app.css";
 
 export default function App() {
   const [quote, setQuote] = useState();
