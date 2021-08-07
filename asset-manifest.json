@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "//tagaca19e.github.io/Type-it/static/css/main.a3867b8c.chunk.css",
-    "main.js": "//tagaca19e.github.io/Type-it/static/js/main.3a2077fa.chunk.js",
-    "main.js.map": "//tagaca19e.github.io/Type-it/static/js/main.3a2077fa.chunk.js.map",
-    "runtime-main.js": "//tagaca19e.github.io/Type-it/static/js/runtime-main.0f5253d1.js",
-    "runtime-main.js.map": "//tagaca19e.github.io/Type-it/static/js/runtime-main.0f5253d1.js.map",
-    "static/css/2.1a02f21c.chunk.css": "//tagaca19e.github.io/Type-it/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.bb176c9b.chunk.js": "//tagaca19e.github.io/Type-it/static/js/2.bb176c9b.chunk.js",
-    "static/js/2.bb176c9b.chunk.js.map": "//tagaca19e.github.io/Type-it/static/js/2.bb176c9b.chunk.js.map",
-    "index.html": "//tagaca19e.github.io/Type-it/index.html",
-    "static/css/2.1a02f21c.chunk.css.map": "//tagaca19e.github.io/Type-it/static/css/2.1a02f21c.chunk.css.map",
-    "static/css/main.a3867b8c.chunk.css.map": "//tagaca19e.github.io/Type-it/static/css/main.a3867b8c.chunk.css.map",
-    "static/js/2.bb176c9b.chunk.js.LICENSE.txt": "//tagaca19e.github.io/Type-it/static/js/2.bb176c9b.chunk.js.LICENSE.txt"
+    "main.css": "//Tagaca19e.github.io/Type-it/static/css/main.a3867b8c.chunk.css",
+    "main.js": "//Tagaca19e.github.io/Type-it/static/js/main.3a2077fa.chunk.js",
+    "main.js.map": "//Tagaca19e.github.io/Type-it/static/js/main.3a2077fa.chunk.js.map",
+    "runtime-main.js": "//Tagaca19e.github.io/Type-it/static/js/runtime-main.f9aa44cc.js",
+    "runtime-main.js.map": "//Tagaca19e.github.io/Type-it/static/js/runtime-main.f9aa44cc.js.map",
+    "static/css/2.1a02f21c.chunk.css": "//Tagaca19e.github.io/Type-it/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.bb176c9b.chunk.js": "//Tagaca19e.github.io/Type-it/static/js/2.bb176c9b.chunk.js",
+    "static/js/2.bb176c9b.chunk.js.map": "//Tagaca19e.github.io/Type-it/static/js/2.bb176c9b.chunk.js.map",
+    "index.html": "//Tagaca19e.github.io/Type-it/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "//Tagaca19e.github.io/Type-it/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.a3867b8c.chunk.css.map": "//Tagaca19e.github.io/Type-it/static/css/main.a3867b8c.chunk.css.map",
+    "static/js/2.bb176c9b.chunk.js.LICENSE.txt": "//Tagaca19e.github.io/Type-it/static/js/2.bb176c9b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0f5253d1.js",
+    "static/js/runtime-main.f9aa44cc.js",
     "static/css/2.1a02f21c.chunk.css",
     "static/js/2.bb176c9b.chunk.js",
     "static/css/main.a3867b8c.chunk.css",
