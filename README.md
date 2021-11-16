@@ -6,8 +6,6 @@
 
 
 
-Using this app u can practice in typing.
-
 ---
 
 ### Project Setup 🛠
